@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: data_warehouse # Tên của schema nguồn
+    database: dbreport # Tên database (tùy chọn)
+    tables:
+      - name: tech_ipms_traffic
